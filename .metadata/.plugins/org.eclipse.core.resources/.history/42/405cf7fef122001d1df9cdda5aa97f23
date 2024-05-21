@@ -1,0 +1,9 @@
+import org.openqa.selenium.*;
+import org.openqa.selenium.firefox.*;
+
+public class LoginPage{
+	public static void main(String[] args)
+	{
+		
+	}
+}

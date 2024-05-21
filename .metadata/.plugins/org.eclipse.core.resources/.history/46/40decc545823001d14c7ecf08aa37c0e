@@ -1,0 +1,8 @@
+import java.util.Random;
+
+public class OTP_Generation{
+	public static void main(String[] args)
+	{
+		
+	}
+}

@@ -1,0 +1,15 @@
+import java.util.Random;
+public class mobile_otp {
+	static char[] otp(int len)
+	{
+		System.out.println("Generating OTP using Random()");
+		System.out.println("\nOTP is : ");
+		String numbers = "0123456789";
+		
+	}
+	public static void main(String[] args)
+	{
+		int length = 4;
+		System.out.println(otp(length));
+	}
+}

@@ -1,0 +1,20 @@
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.*;
+
+public class TestSelenium{
+	public static void main(String[] args){
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://software-testing-lab.github.io/GCD/");
+		driver.manage().window().maximize();
+		driver.findElement(By.name("n1")).sendKeys("10");
+		driver.findElement(By.name("n2")).sendKeys("5");
+		driver.findElement(By.name("gcd")).click();
+		String result = driver.findElement(By.name("result")).getAttribute("value");
+		System.out.println("GCD is "+result);
+		
+		
+		
+	}
+}

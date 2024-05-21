@@ -1,0 +1,8 @@
+import java.util.Random;
+public class mobile_otp {
+	public static void main(String[] args)
+	{
+		int length = 4;
+		
+	}
+}

@@ -1,0 +1,15 @@
+import java.util.Random;
+
+public class OTP_Generation{
+	public static void main(String[] args)
+	{
+		int length = 4;
+		System.out.println("The OTP is :"+otpwala(length));
+	}
+	public static char[] otpwala(int len)
+	{
+		Random r = new Random();
+		String numbers = "1234567890";
+		
+	}
+}
